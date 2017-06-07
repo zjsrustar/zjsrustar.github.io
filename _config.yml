@@ -14,7 +14,7 @@ timezone: Asia/Chongqing
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://hyf.js.org/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,9 +72,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
+  repo:
     coding: git@git.coding.net:yafey/blog.git
     github: git@github.com:yafey/blog.git
-  branch: 
+  branch:
     coding: master
     github: master

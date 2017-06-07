@@ -6,4 +6,5 @@ tags:
 categories: cg
 typora-copy-images-to: {{ title }}
 typora-root-url: {{ title }}
+copyright: true
 ---
