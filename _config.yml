@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Y.a.F.e.Y Blog
+title: 飞哥 Blog
 subtitle:
 description:
-author: YaFey
+author: 飞哥
 language:
     - zh-Hans  # 中文
     - defaults
@@ -14,8 +14,8 @@ timezone: Asia/Chongqing
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hyf.js.org
-root: /blog/
+url: https://zjsrustar.github.io
+root: /
 permalink: :title/  # :year/:month/:day/:title/
 permalink_defaults:
 
@@ -59,7 +59,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 20
+per_page: 66
 pagination_dir: page
 
 # Extensions
@@ -80,8 +80,6 @@ search:
 deploy:
   type: git
   repo:
-    coding: git@git.coding.net:yafey/blog.git
-    github: git@github.com:yafey/blog.git
+    github: git@github.com:zjsrustar/zjsrustar.github.io.git
   branch:
-    coding: master
     github: master
